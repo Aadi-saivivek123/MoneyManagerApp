@@ -1,0 +1,175 @@
+/* Write your CSS here */
+@media screen and (min-width: 768px) {
+    .big-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 20px;
+    }
+    .welcome-container {
+      display: flex;
+      padding: 15px;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-self: center;
+      background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+      width: 90%;
+      border: 0px solid;
+      border-radius: 9px;
+      background-size: cover;
+    }
+    .name {
+      color: #475569;
+      font-size: 34px;
+      font-weight: 600;
+    }
+    .welcome-paragraph {
+      font-size: 28px;
+      font-weight: 500;
+      color: #475569;
+    }
+    .span {
+      font-size: 28px;
+      font-weight: 500;
+      color: #0b69ff;
+    }
+    .Transaction-container {
+      display: flex;
+      flex-direction: row;
+      margin-right: 20px;
+    }
+    .bottom-container {
+      display: flex;
+      flex-direction: row;
+    }
+    .titleselect {
+      font-family: 'Roboto';
+      font-size: 20px;
+      font-weight: 500;
+      border: 1px solid #7e858e;
+      border-radius: 4px;
+      padding: 15px;
+      outline: none;
+    }
+    .Add-Transaction-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      margin-top: 20px;
+      margin-left: 60px;
+      padding: 20px;
+      width: 40vw;
+      border: 2px solid #7e858e;
+      border-radius: 12px;
+    }
+    .Add-Transaction {
+      font-size: 28px;
+      font-weight: 600;
+      color: #1e293b;
+    }
+    .label {
+      padding-top: 12px;
+      font-size: 18px;
+      color: #7e858e;
+      font-weight: 500;
+      padding-bottom: 12px;
+    }
+    .sub-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+    .titleInput {
+      border: 1px solid #cbd5e1;
+      border-radius: 9px;
+      padding: 15px;
+      font-size: 20px;
+      color: #7e858e;
+    }
+    .option {
+      font-size: 16px;
+      font-weight: 500;
+      color: #7e858e;
+      padding: 5px;
+    }
+    .Add-button {
+      background-color: #0b69ff;
+      border: 0px solid;
+      border-radius: 5px;
+      color: #ffffff;
+      font-size: 20px;
+      font-weight: 500;
+      margin-top: 10px;
+      padding: 20px;
+    }
+    .add-heading {
+      font-size: 28px;
+      font-weight: 600;
+      color: #1e293b;
+    }
+    .unordered-sub-container {
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      border: 2px solid #cbd5e1;
+    }
+    .Item-container {
+      list-style-type: none;
+    }
+    .sub-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+    .list {
+      font-size: 24px;
+      font-weight: 600;
+      color: #1e293b;
+      padding-right: 40px;
+    }
+    .main-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      list-style-type: none;
+    }
+    .sub-elements {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      border: 2px solid #cbd5e1;
+    }
+    .unordered-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      border: 2px solid #cbd5e1;
+    }
+  
+    .sub-Item-container {
+      list-style-type: none;
+    }
+    .unordered-sub-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      border: 2px solid #cbd5e1;
+    }
+    .delete-button {
+      border: none;
+      background-color: transparent;
+    }
+    .lister {
+      font-size: 19px;
+      font-weight: 600;
+      color: #1e293b;
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+    .delete-img {
+      width: 35px;
+      height: 35px;
+    }
+  }
+  

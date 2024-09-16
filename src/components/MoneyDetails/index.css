@@ -1,0 +1,55 @@
+/* Write your CSS here */
+@media screen and (min-width: 768px) {
+    .Money-Details-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin-top: 20px;
+    }
+    .your-balance-container {
+      display: flex;
+      flex-direction: row;
+      padding: 10px;
+      background-color: #ecfccb;
+      width: 30%;
+      height: 10%;
+      border: 2px solid #84cc16;
+      border-radius: 12px;
+    }
+    .your-Income-container {
+      display: flex;
+      flex-direction: row;
+      padding: 10px;
+      background-color: #cffafe;
+      width: 30%;
+      height: 10%;
+      border: 2px solid #06b6d4;
+      border-radius: 12px;
+    }
+    .your-expenses-container {
+      display: flex;
+      flex-direction: row;
+      padding: 10px;
+      background-color: #ede9fe;
+      width: 30%;
+      height: 10%;
+      border: 2px solid #7c3aed;
+      border-radius: 12px;
+    }
+    .balance-img {
+      width: 30%;
+      height: 60%;
+      margin: 12px;
+    }
+    .your-balance {
+      font-size: 18px;
+      font-weight: 500;
+      color: #475569;
+    }
+    .balance {
+      font-size: 28px;
+      font-weight: 500;
+      color: #475569;
+    }
+  }
+  
